@@ -1,9 +1,9 @@
 {{ image | dump }}
 
+{{# Uncomment the tag below to see an error when using the runtime parser. #}}
+
+{{#
 {{ asset :url="image" }}
     {{ url }} - {{ extension }}
 {{ /asset }}
-
-<br>
-
-{{ partial:example :image="image" }}
+#}}
